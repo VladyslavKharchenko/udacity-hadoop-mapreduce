@@ -16,7 +16,6 @@ for line in sys.stdin:
 
     if old_key and old_key != this_key:
         print("{}\t{}".format(old_key, sales_total))
-        old_key = this_key
         sales_total = 0
 
     old_key = this_key
